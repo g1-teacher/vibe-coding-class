@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5학년 2반 우리 반 홈페이지</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">🌻 5학년 2반</div>
+        </div>
+        <div class="search-area">
+            <div class="search-box">
+                <input type="text" placeholder="우리 반 소식을 검색해보세요!">
+                <button>🔍</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#intro">학급 소개</a></li>
+                <li><a href="#schedule">주간 학습 일정</a></li>
+                <li><a href="#notices">공지사항</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="content-left">
+            <section id="notices" class="board-section">
+                <h2>📢 공지사항</h2>
+                <div class="card-grid">
+                    <div class="notice-card">
+                        <div class="card-badge new">NEW</div>
+                        <h3>현장체험학습 안내</h3>
+                        <p>다음 주 금요일, 서울대공원으로 봄 소풍을 갑니다! 맛있는 도시락을 준비해주세요.</p>
+                        <span class="date">5월 10일</span>
+                    </div>
+                    <div class="notice-card">
+                        <div class="card-badge urgent">중요</div>
+                        <h3>준비물 안내</h3>
+                        <p>내일 미술 시간에는 수채화 도구 세트(물감, 붓, 팔레트)를 꼭 챙겨오세요.</p>
+                        <span class="date">5월 12일</span>
+                    </div>
+                    <div class="notice-card">
+                        <div class="card-badge info">알림</div>
+                        <h3>체육복 착용일</h3>
+                        <p>이번 주 체육 시간은 수요일, 금요일입니다. 체육복을 입고 등교하세요.</p>
+                        <span class="date">5월 13일</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="schedule" class="board-section">
+                <h2>📅 주간 학습 일정 (5월 3주차)</h2>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>월</th>
+                            <th>화</th>
+                            <th>수</th>
+                            <th>목</th>
+                            <th>금</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>국어</td><td>수학</td><td>체육</td><td>과학</td><td>음악</td></tr>
+                        <tr><td>수학</td><td>영어</td><td>도덕</td><td>실과</td><td>국어</td></tr>
+                        <tr><td>사회</td><td>국어</td><td>수학</td><td>영어</td><td>미술</td></tr>
+                        <tr><td>체육</td><td>과학</td><td>사회</td><td>음악</td><td>미술</td></tr>
+                    </tbody>
+                </table>
+            </section>
+            
+            <section id="intro" class="board-section">
+                <h2>✨ 학급 소개</h2>
+                <div class="intro-box">
+                    <p>우리 <strong>5학년 2반</strong>은 서로를 배려하고 존중하는 따뜻한 교실입니다. 다 함께 웃으며 즐겁게 배우는 것을 목표로 합니다! 실수를 두려워하지 않고 언제나 도전하는 멋진 5학년 2반 친구들 사랑합니다! ❤️</p>
+                </div>
+            </section>
+        </div>
+
+        <aside class="sidebar">
+            <div class="teacher-word">
+                <h3>👩‍🏫 선생님 한마디</h3>
+                <div class="speech-bubble">
+                    <p>사랑하는 5학년 2반 친구들! ☀️ 이번 주도 활기차게 시작해봐요! 모르는 것이 있으면 언제든 선생님에게 질문해주세요. 오늘도 힘차게 화이팅! 💖</p>
+                </div>
+                <div class="teacher-avatar"></div>
+            </div>
+            
+            <div class="quick-links">
+                <h3>📌 빠른 링크</h3>
+                <ul>
+                    <li><a href="#">🍚 오늘의 급식 메뉴</a></li>
+                    <li><a href="#">📝 숙제 게시판</a></li>
+                    <li><a href="#">👍 칭찬 릴레이</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 5학년 2반. 모두가 행복한 우리 반.</p>
+    </footer>
+</body>
+</html>
